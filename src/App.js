@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Grid from './Components/Grid';
+import PlaceHolder from './Components/PlaceHolder';
 
 function App() {
   return (
     <div className="App">
-      <Grid />
+      <PlaceHolder />
     </div>
   );
 }
