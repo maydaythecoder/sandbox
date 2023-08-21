@@ -1,19 +1,25 @@
 import React from 'react'
 import './Grid.css';
+import One from './Context/FolderOne/One';
+import Two from './Context/FolderTwo/Two';
+import Three from './Context/FolderThree/Three';
+import Four from './Context/FolderFour/Four';
+import Five from './Context/FolderFive/Five';
+import Six from './Context/FolderSix/Six';
+import Seven from './Context/FolderSeven/Seven';
+import Eight from './Context/FolderEight/Eight';
 
 const Grid = () => {
   return (
     <div id='Container'>
-        <div>0</div>
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
-        <div>7</div>
-        <div>8</div>
-        <div>9</div>
+        <One />
+        <Two />
+        <Three />
+        <Four />
+        <Five />
+        <Six />
+        <Seven />
+        <Eight />
     </div>
   )
 }
